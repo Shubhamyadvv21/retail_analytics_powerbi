@@ -12,26 +12,28 @@ Identify top-performing products and low-profit segments.
 
 Build a dynamic, interactive dashboard for management decision-making.
 # Tools & Technologies Used
-Tool	                     Purpose
-
-Power BI Desktop	        Dashboard creation and data modeling
-
-Power BI                  Query	Data cleaning and transformation
-
-DAX                     	Calculations & KPIs
-
-Excel / CSV             	Data source and export
-
-GitHub	                  Version control and portfolio hosting
-
+| Tool | Purpose |
+|------|----------|
+| Power BI | Data visualization and dashboard creation |
+| Power Query | Data cleaning and transformation |
+| DAX | Custom KPIs and calculations |
+| Excel | Data source and initial exploration |
+| GitHub | Project documentation and version control |
 # Key Metrics & DAX Measures
 Measure        	Formula / Description
+
 Total Sales  -	SUM(Orders[Sales])
+
 Total Profit - 	SUM(Orders[Profit])
+
 Profit Margin %-	DIVIDE([Total Profit], [Total Sales])
-Total Orders-	DISTINCTCOUNT(Orders[OrderID])https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+Total Orders-	DISTINCTCOUNT(Orders[OrderID])
+
 Average Order Value (AOV)-	DIVIDE([Total Sales], [Total Orders])
-Sales YTD	CALCULATE([Total Sales], DATESYTD('Date'[Date]))
+
+Sales YTD-	CALCULATE([Total Sales], DATESYTD('Date'[Date]))
+
 Sales YoY %	-DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 # Project Folder Structure
 Retail-Analytics/
