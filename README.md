@@ -5,6 +5,7 @@ This project presents an interactive Power BI dashboard that analyzes retail sal
 It demonstrates the complete analytics workflow — from data cleaning and transformation to data modeling, DAX measures, and insightful visualization.
 # Objectives
 Analyze total sales, profit, and profit margin across categories and regions.
+
 Track monthly and yearly sales performance.
 Identify top-performing products and low-profit segments.
 Build a dynamic, interactive dashboard for management decision-making.
