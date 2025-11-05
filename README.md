@@ -7,15 +7,23 @@ It demonstrates the complete analytics workflow — from data cleaning and trans
 Analyze total sales, profit, and profit margin across categories and regions.
 
 Track monthly and yearly sales performance.
+
 Identify top-performing products and low-profit segments.
+
 Build a dynamic, interactive dashboard for management decision-making.
 # Tools & Technologies Used
 Tool	                     Purpose
+
 Power BI Desktop	        Dashboard creation and data modeling
+
 Power BI                  Query	Data cleaning and transformation
+
 DAX                     	Calculations & KPIs
+
 Excel / CSV             	Data source and export
+
 GitHub	                  Version control and portfolio hosting
+
 # Key Metrics & DAX Measures
 Measure        	Formula / Description
 Total Sales  -	SUM(Orders[Sales])
